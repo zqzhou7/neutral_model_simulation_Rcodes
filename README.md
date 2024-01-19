@@ -1,2 +1,9 @@
-# neutral_model_simulation_Rcodes
+# A numeric model demonstrating the ecological neutral process
+
 This repository contains the complete R codes for generating a numerical simulation of the ecological neutral theory. 
+
+A numeric model based on the neutral process theory was built up to simulate the interactions between native and introduced species within a shared ecological niche, employing a framework that excludes species-specific competitive interactions. Instead, the model is based on the principles of neutrality, where species differences are not considered, and the composition of the community is dictated by random demographic events and differential mortality. The R codes for this model are listed at the end of this appendix. 
+
+In this model, the ecological niche is conceptualized as a collection of discrete sites, each of which can be occupied by a native or introduced species or remain vacant. Sites transition between these states through processes such as natural turnover and stochastic mortality events, which are not influenced by species identity. The average state of all sites is calculated at each time interval, providing a continuous metric that reflects the community's composition. 
+
+Three scenarios are represented in the following Fig. A1: i) equal mortality scenario in which both native and introduced species have identical mortality percentages of 0.5; ii) increased mortality for native species scenario, in which the mortality percentage for the native species is set at 0.7, while that for the introduced species is set at 0.3; iii) increased mortality for introduced species scenario, in which the mortality percentages are set at 0.3 for the native species and 0.7 for the introduced species. These scenarios serve to illustrate that species composition can be significantly altered by differential mortality alone, underscoring the potential for neutral processes to induce marked ecological changes.
